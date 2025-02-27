@@ -1,5 +1,6 @@
  .u-section-1 {
   background-image: none;
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -7,12 +8,13 @@
 }
 
 .u-section-1 .u-blog-1 {
-  margin: 0 0 60px;
+  margin-top: 0;
+  margin-bottom: 60px;
 }
 
 .u-section-1 .u-repeater-1 {
   grid-template-columns: repeat(2, calc(50% - 11px));
-  min-height: 1564px;
+  min-height: 1479px;
   grid-gap: 22px;
 }
 
@@ -141,13 +143,8 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-1 .u-blog-1 {
-    margin-right: initial;
-    margin-left: initial;
-  }
-
   .u-section-1 .u-repeater-1 {
-    min-height: 1288px;
+    min-height: 1218px;
   }
 }
 
